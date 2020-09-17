@@ -1,0 +1,6 @@
+#
+# Variables you want available to for every host. Since values here
+# can be overridden by host_vars, they can also act as defaults.
+#
+
+variable_1: "This variable came from group_vars/all.yml"

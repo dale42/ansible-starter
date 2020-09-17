@@ -1,0 +1,7 @@
+# ansible variables
+ansible_user: host_account
+ansible_host: host.com
+
+# application variables
+a_var: "a_var value for host.com"
+another_var: "another_var value for host.com"

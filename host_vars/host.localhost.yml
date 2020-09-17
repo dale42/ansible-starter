@@ -1,0 +1,8 @@
+# ansible variables
+ansible_user: my_account_name
+ansible_host: localhost
+ansible_connection: local
+
+# application variables
+a_var: "a_var value for host.localhost"
+another_var: "another_var value for host.localhost"

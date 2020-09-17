@@ -1,0 +1,11 @@
+all:
+  hosts:
+    host.com:
+    host.localhost:
+  children:
+    local_sites:
+      hosts:
+        host.localhost:
+    hosted_sites:
+      hosts:
+        host.com:
